@@ -625,3 +625,114 @@
   _reroute (:/ghostdriver/request_handlers/request_handler.js:61)
   _handle (:/ghostdriver/request_handlers/router_request_handler.js:78)
 [INFO  - 2016-01-15T18:02:36.614Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-01-15T18:29:10.352Z] GhostDriver - Main - running on port 44640
+[INFO  - 2016-01-15T18:29:10.750Z] Session [dee12580-bbb5-11e5-82b9-09de4bcc2f80] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-01-15T18:29:10.750Z] Session [dee12580-bbb5-11e5-82b9-09de4bcc2f80] - page.customHeaders:  - {}
+[INFO  - 2016-01-15T18:29:10.750Z] Session [dee12580-bbb5-11e5-82b9-09de4bcc2f80] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-15T18:29:10.750Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dee12580-bbb5-11e5-82b9-09de4bcc2f80
+[INFO  - 2016-01-15T18:29:15.233Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-01-15T18:29:16.162Z] GhostDriver - Main - running on port 25528
+[INFO  - 2016-01-15T18:29:16.334Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-01-15T18:29:16.334Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - page.customHeaders:  - {}
+[INFO  - 2016-01-15T18:29:16.334Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-15T18:29:16.334Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e2353280-bbb5-11e5-8af5-bf1f386ae780
+[ERROR - 2016-01-15T18:29:34.552Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - page.onError - msg: TypeError: undefined is not an object (evaluating 'b[g.expando]')
+[ERROR - 2016-01-15T18:29:34.552Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - page.onError - stack:
+  fix (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:86)
+  dispatch (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:82)
+  h (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:76)
+[ERROR - 2016-01-15T18:29:36.923Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - page.onError - msg: TypeError: undefined is not an object (evaluating 'digitalData.page.category.primaryCategory')
+[ERROR - 2016-01-15T18:29:36.923Z] Session [e2353280-bbb5-11e5-8af5-bf1f386ae780] - page.onError - stack:
+  customJS (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:12)
+  realGetDataElement (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  getDataElement (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  getVar (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  replace (:0)
+  replace (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  substituteVariables (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  initialize (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  endPLPhase (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  firePageLoadEvent (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  pageBottom (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+[INFO  - 2016-01-15T18:29:39.440Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-01-15T18:29:40.352Z] GhostDriver - Main - running on port 25070
+[INFO  - 2016-01-15T18:29:40.522Z] Session [f0a04c60-bbb5-11e5-8f97-5fcb37e6e44c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-01-15T18:29:40.522Z] Session [f0a04c60-bbb5-11e5-8f97-5fcb37e6e44c] - page.customHeaders:  - {}
+[INFO  - 2016-01-15T18:29:40.522Z] Session [f0a04c60-bbb5-11e5-8f97-5fcb37e6e44c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-15T18:29:40.522Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f0a04c60-bbb5-11e5-8f97-5fcb37e6e44c
+[ERROR - 2016-01-15T18:29:44.854Z] Session [f0a04c60-bbb5-11e5-8f97-5fcb37e6e44c] - page.onError - msg: ReferenceError: Can't find variable: s
+[ERROR - 2016-01-15T18:29:44.854Z] Session [f0a04c60-bbb5-11e5-8f97-5fcb37e6e44c] - page.onError - stack:
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/scripts/satellite-55ca50326362370014000ac0-staging.js:2)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  onload (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+[INFO  - 2016-01-15T18:30:16.035Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-01-15T18:30:16.951Z] GhostDriver - Main - running on port 13834
+[INFO  - 2016-01-15T18:30:17.125Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-01-15T18:30:17.125Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.customHeaders:  - {}
+[INFO  - 2016-01-15T18:30:17.125Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-15T18:30:17.126Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 06715200-bbb6-11e5-b7ac-4fc05c9aa70b
+[ERROR - 2016-01-15T18:30:19.049Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.onError - msg: ReferenceError: Can't find variable: s
+[ERROR - 2016-01-15T18:30:19.049Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.onError - stack:
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/scripts/satellite-55ca50326362370014000ac0-staging.js:2)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  onload (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+[ERROR - 2016-01-15T18:30:22.052Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.onError - msg: TypeError: undefined is not an object (evaluating 'digitalData.page.category')
+[ERROR - 2016-01-15T18:30:22.053Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.onError - stack:
+  customJS (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:12)
+  realGetDataElement (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  getDataElement (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  getVar (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  replace (:0)
+  replace (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  substituteVariables (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  initialize (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  endPLPhase (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  firePageLoadEvent (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  pageBottom (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+[ERROR - 2016-01-15T18:30:22.443Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.onError - msg: ReferenceError: Can't find variable: s
+[ERROR - 2016-01-15T18:30:22.444Z] Session [06715200-bbb6-11e5-b7ac-4fc05c9aa70b] - page.onError - stack:
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/scripts/satellite-55ca50326362370014000ac0-staging.js:2)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  onload (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  sendEvent (:0)
+  _keyEvent (:/ghostdriver/inputs.js:325)
+  _pressKey (:/ghostdriver/inputs.js:280)
+  _sendKeys (:/ghostdriver/inputs.js:237)
+  _postValueCommand (:/ghostdriver/request_handlers/webelement_request_handler.js:288)
+  _handle (:/ghostdriver/request_handlers/webelement_request_handler.js:72)
+  _reroute (:/ghostdriver/request_handlers/request_handler.js:61)
+  _handle (:/ghostdriver/request_handlers/session_request_handler.js:120)
+  _reroute (:/ghostdriver/request_handlers/request_handler.js:61)
+  _handle (:/ghostdriver/request_handlers/router_request_handler.js:78)
+[INFO  - 2016-01-15T18:30:24.189Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-01-15T18:30:25.139Z] GhostDriver - Main - running on port 46900
+[INFO  - 2016-01-15T18:30:25.270Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-01-15T18:30:25.270Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - page.customHeaders:  - {}
+[INFO  - 2016-01-15T18:30:25.270Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-15T18:30:25.270Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0b4c2610-bbb6-11e5-a5f2-413bdfc972d5
+[ERROR - 2016-01-15T18:30:29.650Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - page.onError - msg: TypeError: undefined is not an object (evaluating 'digitalData.page.category')
+[ERROR - 2016-01-15T18:30:29.650Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - page.onError - stack:
+  customJS (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:12)
+  realGetDataElement (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  getDataElement (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  getVar (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  replace (:0)
+  replace (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  substituteVariables (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  initialize (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  endPLPhase (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  firePageLoadEvent (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  pageBottom (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+[ERROR - 2016-01-15T18:30:29.894Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - page.onError - msg: ReferenceError: Can't find variable: s
+[ERROR - 2016-01-15T18:30:29.894Z] Session [0b4c2610-bbb6-11e5-a5f2-413bdfc972d5] - page.onError - stack:
+  (anonymous function) (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/scripts/satellite-55ca50326362370014000ac0-staging.js:2)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:11)
+  i (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+  onload (https://assets.adobedtm.com/e157c7ff34e2d6bd3c151937f4c67f693db0150f/satelliteLib-bfe19886e39a4d20710fc37fd1e213b09fadbdbe-staging.js:10)
+[INFO  - 2016-01-15T18:30:31.907Z] ShutdownReqHand - _handle - About to shutdown
