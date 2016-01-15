@@ -890,3 +890,5 @@
 [INFO  - 2016-01-15T21:42:39.260Z] Session [e6175a70-bbd0-11e5-87ba-8944f2df2eaa] - page.customHeaders:  - {}
 [INFO  - 2016-01-15T21:42:39.260Z] Session [e6175a70-bbd0-11e5-87ba-8944f2df2eaa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2016-01-15T21:42:39.260Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e6175a70-bbd0-11e5-87ba-8944f2df2eaa
+[INFO  - 2016-01-15T21:47:39.101Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-15T21:52:39.113Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
