@@ -895,3 +895,21 @@
 [INFO  - 2016-01-15T21:57:39.126Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2016-01-15T22:02:39.138Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2016-01-15T22:07:39.150Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-15T22:12:39.165Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-01-15T22:12:51.426Z] Session [e6175a70-bbd0-11e5-87ba-8944f2df2eaa] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.userDropdownWidget.opts')
+[ERROR - 2016-01-15T22:12:51.426Z] Session [e6175a70-bbd0-11e5-87ba-8944f2df2eaa] - page.onError - stack:
+  (anonymous function) (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:885)
+  d (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:39)
+  (anonymous function) (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:281)
+  q (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:42)
+  fireWith (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:43)
+  e (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:163)
+  e (https://rc.live.test.cheggnet.com/_r-default/1f1a14cc8f448bf1387ef6d1209b8857.js:175)
+  onreadystatechange_override (https://d2hygut8deko74.cloudfront.net/magnify.js:1)
+[INFO  - 2016-01-15T22:17:39.177Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-15T22:21:34.005Z] GhostDriver - Main - running on port 5665
+[INFO  - 2016-01-15T22:21:34.340Z] Session [55e848f0-bbd6-11e5-bc1e-b1ca8bf026ab] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-01-15T22:21:34.340Z] Session [55e848f0-bbd6-11e5-bc1e-b1ca8bf026ab] - page.customHeaders:  - {}
+[INFO  - 2016-01-15T22:21:34.341Z] Session [55e848f0-bbd6-11e5-bc1e-b1ca8bf026ab] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-01-15T22:21:34.342Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55e848f0-bbd6-11e5-bc1e-b1ca8bf026ab
+[INFO  - 2016-01-15T22:21:39.605Z] ShutdownReqHand - _handle - About to shutdown
