@@ -892,3 +892,6 @@
 [INFO  - 2016-01-15T21:42:39.260Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: e6175a70-bbd0-11e5-87ba-8944f2df2eaa
 [INFO  - 2016-01-15T21:47:39.101Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2016-01-15T21:52:39.113Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-15T21:57:39.126Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-15T22:02:39.138Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-01-15T22:07:39.150Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
