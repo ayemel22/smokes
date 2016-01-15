@@ -80,12 +80,12 @@ public class SignUpSignInSuccess extends SetUpDriver {
 			String bodyText = driver.findElement(By.tagName("body")).getText();
 			Assert.assertFalse("Start your free trial", bodyText.contains("Start your free trial"));
 			// also check that 30 minutes are given just to be sure
-			WebElement more = driver.findElement(By.cssSelector("div[id='more-menu']"));
-			wait.until(ExpectedConditions.visibilityOf(more));
-			more.click();
-			WebElement free30Min = driver
-					.findElement(By.cssSelector("div[id='more-menu-popup'] div[id='free-time-box'] h2"));
-			Assert.assertTrue(free30Min.getText().contains("30 min"));
+			//WebElement more = driver.findElement(By.cssSelector("div[id='more-menu']"));
+			//wait.until(ExpectedConditions.visibilityOf(more));
+			//more.click();
+			//WebElement free30Min = driver
+				//	.findElement(By.cssSelector("div[id='more-menu-popup'] div[id='free-time-box'] h2"));
+			//Assert.assertTrue(free30Min.getText().contains("30 min"));
 		}
 	}
 
@@ -153,12 +153,12 @@ public class SignUpSignInSuccess extends SetUpDriver {
 			String bodyText = driver.findElement(By.tagName("body")).getText();
 			Assert.assertFalse("Start your free trial", bodyText.contains("Start your free trial"));
 			// also check that 30 minutes are given just to be sure
-			WebElement more = driver.findElement(By.cssSelector("div[id='more-menu']"));
-			wait.until(ExpectedConditions.visibilityOf(more));
-			more.click();
-			WebElement free30Min = driver
-					.findElement(By.cssSelector("div[id='more-menu-popup'] div[id='free-time-box'] h2"));
-			Assert.assertTrue(free30Min.getText().contains("30 min"));
+			//WebElement more = driver.findElement(By.cssSelector("div[id='more-menu']"));
+			//wait.until(ExpectedConditions.visibilityOf(more));
+			//more.click();
+			//WebElement free30Min = driver
+				//	.findElement(By.cssSelector("div[id='more-menu-popup'] div[id='free-time-box'] h2"));
+			//Assert.assertTrue(free30Min.getText().contains("30 min"));
 		}
 	}
 
