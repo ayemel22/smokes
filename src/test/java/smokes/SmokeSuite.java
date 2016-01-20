@@ -5,7 +5,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	MajorElementsVisibleOnLandingPage.class, SignUpSignInSuccess.class})
+	MajorElementsVisibleOnLandingPage.class})
 
 
 public class SmokeSuite {

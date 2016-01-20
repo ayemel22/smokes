@@ -31,9 +31,9 @@ public class SignUpSignInSuccess extends SetUpDriver {
 		// switch window focus in order to focus on modal
 		for (String child : driver.getWindowHandles()) {
 			driver.switchTo().window(child);
-			WebElement yourName = driver.findElement(By.cssSelector("#id-signup-name"));
-			WebElement emailAddress = driver.findElement(By.cssSelector("#id-signup-email"));
-			WebElement chooseAPassword = driver.findElement(By.cssSelector("#id-signup-password"));
+			WebElement yourName = driver.findElement(By.cssSelector("div[class='input-group'] #id-signup-name"));
+			WebElement emailAddress = driver.findElement(By.cssSelector("div[class='input-group'] #id-signup-email"));
+			WebElement chooseAPassword = driver.findElement(By.cssSelector("div[class='input-group'] #id-signup-password"));
 			WebElement signUpButton = driver.findElement(By.cssSelector("#create-account"));
 			wait.until(ExpectedConditions.visibilityOf(yourName));
 			yourName.clear();
@@ -102,10 +102,10 @@ public class SignUpSignInSuccess extends SetUpDriver {
 		// switch window focus in order to focus on modal
 		for (String child : driver.getWindowHandles()) {
 			driver.switchTo().window(child);
-			WebElement parentRadioButton = driver.findElement(By.cssSelector("#signup_role_parent_modal"));
-			WebElement yourName = driver.findElement(By.cssSelector("#id-signup-name"));
-			WebElement emailAddress = driver.findElement(By.cssSelector("#id-signup-email"));
-			WebElement chooseAPassword = driver.findElement(By.cssSelector("#id-signup-password"));
+			WebElement parentRadioButton = driver.findElement(By.cssSelector("div[class='input-group'] #signup_role_parent_modal"));
+			WebElement yourName = driver.findElement(By.cssSelector("div[class='input-group'] #id-signup-name"));
+			WebElement emailAddress = driver.findElement(By.cssSelector("div[class='input-group'] #id-signup-email"));
+			WebElement chooseAPassword = driver.findElement(By.cssSelector("div[class='input-group'] #id-signup-password"));
 			WebElement signUpButton = driver.findElement(By.cssSelector("#create-account"));
 			wait.until(ExpectedConditions.visibilityOf(yourName));
 			yourName.clear();

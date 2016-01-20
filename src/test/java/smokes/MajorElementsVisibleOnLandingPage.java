@@ -9,12 +9,12 @@ public class MajorElementsVisibleOnLandingPage extends SetUpDriver {
 
 	@Test
 	public void assertElementPresence(){
-		WebElement tutorsHomeLink = driver.findElement(By.cssSelector("a[id='logo-link']"));
-		WebElement pricingButton = driver.findElement(By.cssSelector("a[id='nav-pricing']"));
-		WebElement howItWorksButton = driver.findElement(By.cssSelector("a[id='nav-how-it-works']"));
-		WebElement headerSearch = driver.findElement(By.cssSelector("input[id='header-search']"));
-		WebElement searchButton = driver.findElement(By.cssSelector("div[class='search-button-nav']"));
-		WebElement signInButton = driver.findElement(By.cssSelector("a[id='nav-sign-in']"));
+		WebElement tutorsHomeLink = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='logo-link']"));
+		WebElement pricingButton = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='nav-pricing']"));
+		WebElement howItWorksButton = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='nav-how-it-works']"));
+		WebElement headerSearch = driver.findElement(By.cssSelector("header[id='chegg-header'] input[id='header-search']"));
+		WebElement searchButton = driver.findElement(By.cssSelector("header[id='chegg-header'] div[class='search-button-nav']"));
+		WebElement signInButton = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='nav-sign-in']"));
 		WebElement startFreeTrialButton = driver.findElement(By.cssSelector("a[class='nav-free-trial-cta no-separator nav-btn header-right']"));
 		WebElement howItWorksCenterButton = driver.findElement(By.cssSelector("a[class='js-how-it-works-toggle animateToElement']"));
 		WebElement messageModalSubjectSearch = driver.findElement(By.cssSelector("div[class='message-modal-subject-search']"));
