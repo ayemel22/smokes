@@ -1,14 +1,17 @@
 package smokes;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.junit.Assert;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class MajorElementsVisibleOnLandingPage extends SetUpDriver {
 
 	@Test
 	public void assertElementPresence(){
+		WebDriverWait wait = new WebDriverWait(driver,30);
 		WebElement tutorsHomeLink = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='logo-link']"));
 		WebElement pricingButton = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='nav-pricing']"));
 		WebElement howItWorksButton = driver.findElement(By.cssSelector("header[id='chegg-header'] a[id='nav-how-it-works']"));
@@ -21,17 +24,9 @@ public class MajorElementsVisibleOnLandingPage extends SetUpDriver {
 		WebElement selectPriorityDropDown = driver.findElement(By.cssSelector("div[class='priority-select-wrapper']"));
 		WebElement getTutorMatchesButton = driver.findElement(By.cssSelector("a[class='btn btn-primary find-tutor-now-btn']"));
 		WebElement omnibar = driver.findElement(By.cssSelector("div[id='omnibar']"));
-		Assert.assertTrue(tutorsHomeLink.isDisplayed());
-		Assert.assertTrue(pricingButton.isDisplayed());
-		Assert.assertTrue(howItWorksButton.isDisplayed());
-		Assert.assertTrue(headerSearch.isDisplayed());
-		Assert.assertTrue(searchButton.isDisplayed());
-		Assert.assertTrue(signInButton.isDisplayed());
-		Assert.assertTrue(startFreeTrialButton.isDisplayed());
-		Assert.assertTrue(howItWorksCenterButton.isDisplayed());
-		Assert.assertTrue(messageModalSubjectSearch.isDisplayed());
-		Assert.assertTrue(selectPriorityDropDown.isDisplayed());
-		Assert.assertTrue(getTutorMatchesButton.isDisplayed());
-		Assert.assertTrue(omnibar.isDisplayed());
+		wait.until(ExpectedConditions.visibilityOf(tutorsHomeLink));
+		wait.until(ExpectedConditions.visibilityOf(pricingButton));
+		wait.until(ExpectedConditions.visibilityOf(howItWorksButton));
+
 	}
 }
