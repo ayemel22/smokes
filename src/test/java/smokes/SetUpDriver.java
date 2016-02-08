@@ -21,7 +21,7 @@ public class SetUpDriver {
 	public void setUp() {
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
-		driver.navigate().to("https://rc.live.test.cheggnet.com/tutors/");
+		driver.navigate().to("https://www.chegg.com/tutors/");
 	}
 
 	@After
