@@ -1384,3 +1384,119 @@
 [INFO  - 2016-01-20T21:22:03.948Z] Session [d9da7370-bfbb-11e5-b868-11f12a3ba8c7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2016-01-20T21:22:03.948Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d9da7370-bfbb-11e5-b868-11f12a3ba8c7
 [INFO  - 2016-01-20T21:22:07.817Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:46:24.275Z] GhostDriver - Main - running on port 6621
+[INFO  - 2016-02-08T18:46:24.530Z] Session [40f99bd0-ce94-11e5-b025-3751b0449857] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:46:24.530Z] Session [40f99bd0-ce94-11e5-b025-3751b0449857] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:46:24.530Z] Session [40f99bd0-ce94-11e5-b025-3751b0449857] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:46:24.530Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 40f99bd0-ce94-11e5-b025-3751b0449857
+[INFO  - 2016-02-08T18:46:57.791Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:46:59.087Z] GhostDriver - Main - running on port 40770
+[INFO  - 2016-02-08T18:46:59.295Z] Session [55b253a0-ce94-11e5-9c4e-9fad6f975ecd] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:46:59.295Z] Session [55b253a0-ce94-11e5-9c4e-9fad6f975ecd] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:46:59.295Z] Session [55b253a0-ce94-11e5-9c4e-9fad6f975ecd] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:46:59.296Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 55b253a0-ce94-11e5-9c4e-9fad6f975ecd
+[ERROR - 2016-02-08T18:47:01.126Z] Session [55b253a0-ce94-11e5-9c4e-9fad6f975ecd] - page.onError - msg: Invalid id.
+[ERROR - 2016-02-08T18:47:01.126Z] Session [55b253a0-ce94-11e5-9c4e-9fad6f975ecd] - page.onError - stack:
+  c (https://a248.e.akamai.net/static.chegg.com/_r/22b2c4701abe9e781a41c82ecb25320b.js:22)
+  (anonymous function) (https://a248.e.akamai.net/static.chegg.com/_r/22b2c4701abe9e781a41c82ecb25320b.js:23)
+  (anonymous function) (https://www.chegg.com/tutors/:1263)
+  f (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  x (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  nrWrapper (https://www.chegg.com/tutors/:60)
+[INFO  - 2016-02-08T18:47:32.363Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:47:33.232Z] GhostDriver - Main - running on port 6150
+[INFO  - 2016-02-08T18:47:33.446Z] Session [6a0d8220-ce94-11e5-bd10-f19658c13b70] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:47:33.446Z] Session [6a0d8220-ce94-11e5-bd10-f19658c13b70] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:47:33.447Z] Session [6a0d8220-ce94-11e5-bd10-f19658c13b70] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:47:33.447Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6a0d8220-ce94-11e5-bd10-f19658c13b70
+[INFO  - 2016-02-08T18:48:06.339Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:48:07.189Z] GhostDriver - Main - running on port 9792
+[INFO  - 2016-02-08T18:48:07.425Z] Session [7e4e23c0-ce94-11e5-b5ad-e3adc7a891d5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:48:07.425Z] Session [7e4e23c0-ce94-11e5-b5ad-e3adc7a891d5] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:48:07.425Z] Session [7e4e23c0-ce94-11e5-b5ad-e3adc7a891d5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:48:07.425Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7e4e23c0-ce94-11e5-b5ad-e3adc7a891d5
+[ERROR - 2016-02-08T18:48:09.238Z] Session [7e4e23c0-ce94-11e5-b5ad-e3adc7a891d5] - page.onError - msg: Invalid id.
+[ERROR - 2016-02-08T18:48:09.238Z] Session [7e4e23c0-ce94-11e5-b5ad-e3adc7a891d5] - page.onError - stack:
+  c (https://a248.e.akamai.net/static.chegg.com/_r/22b2c4701abe9e781a41c82ecb25320b.js:22)
+  (anonymous function) (https://a248.e.akamai.net/static.chegg.com/_r/22b2c4701abe9e781a41c82ecb25320b.js:23)
+  (anonymous function) (https://www.chegg.com/tutors/:1263)
+  f (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  x (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  nrWrapper (https://www.chegg.com/tutors/:60)
+[INFO  - 2016-02-08T18:48:40.262Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:48:57.228Z] GhostDriver - Main - running on port 38330
+[INFO  - 2016-02-08T18:48:57.611Z] Session [9c381170-ce94-11e5-aa02-073517d8278b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:48:57.611Z] Session [9c381170-ce94-11e5-aa02-073517d8278b] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:48:57.612Z] Session [9c381170-ce94-11e5-aa02-073517d8278b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:48:57.612Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9c381170-ce94-11e5-aa02-073517d8278b
+[ERROR - 2016-02-08T18:48:59.710Z] Session [9c381170-ce94-11e5-aa02-073517d8278b] - page.onError - msg: Invalid id.
+[ERROR - 2016-02-08T18:48:59.710Z] Session [9c381170-ce94-11e5-aa02-073517d8278b] - page.onError - stack:
+  c (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:22)
+  (anonymous function) (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:23)
+  (anonymous function) (https://rc.live.test.cheggnet.com/tutors/:1272)
+  f (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  x (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+[INFO  - 2016-02-08T18:49:31.622Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:49:32.508Z] GhostDriver - Main - running on port 42517
+[INFO  - 2016-02-08T18:49:32.709Z] Session [b1234af0-ce94-11e5-90f3-07c3a52976cf] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:49:32.709Z] Session [b1234af0-ce94-11e5-90f3-07c3a52976cf] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:49:32.709Z] Session [b1234af0-ce94-11e5-90f3-07c3a52976cf] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:49:32.709Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b1234af0-ce94-11e5-90f3-07c3a52976cf
+[ERROR - 2016-02-08T18:49:34.669Z] Session [b1234af0-ce94-11e5-90f3-07c3a52976cf] - page.onError - msg: Invalid id.
+[ERROR - 2016-02-08T18:49:34.669Z] Session [b1234af0-ce94-11e5-90f3-07c3a52976cf] - page.onError - stack:
+  c (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:22)
+  (anonymous function) (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:23)
+  (anonymous function) (https://rc.live.test.cheggnet.com/tutors/:1272)
+  f (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  x (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+[INFO  - 2016-02-08T18:50:06.503Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:50:07.359Z] GhostDriver - Main - running on port 32722
+[INFO  - 2016-02-08T18:50:07.586Z] Session [c5ed67e0-ce94-11e5-b768-39d214c5ab09] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:50:07.586Z] Session [c5ed67e0-ce94-11e5-b768-39d214c5ab09] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:50:07.587Z] Session [c5ed67e0-ce94-11e5-b768-39d214c5ab09] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:50:07.587Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c5ed67e0-ce94-11e5-b768-39d214c5ab09
+[ERROR - 2016-02-08T18:50:09.471Z] Session [c5ed67e0-ce94-11e5-b768-39d214c5ab09] - page.onError - msg: Invalid id.
+[ERROR - 2016-02-08T18:50:09.471Z] Session [c5ed67e0-ce94-11e5-b768-39d214c5ab09] - page.onError - stack:
+  c (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:22)
+  (anonymous function) (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:23)
+  (anonymous function) (https://rc.live.test.cheggnet.com/tutors/:1272)
+  f (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  x (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+[INFO  - 2016-02-08T18:50:41.584Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:50:42.461Z] GhostDriver - Main - running on port 2179
+[INFO  - 2016-02-08T18:50:42.667Z] Session [dad63060-ce94-11e5-afc5-85c636f095b2] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:50:42.667Z] Session [dad63060-ce94-11e5-afc5-85c636f095b2] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:50:42.667Z] Session [dad63060-ce94-11e5-afc5-85c636f095b2] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:50:42.667Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dad63060-ce94-11e5-afc5-85c636f095b2
+[INFO  - 2016-02-08T18:51:18.687Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-02-08T18:51:19.575Z] GhostDriver - Main - running on port 15890
+[INFO  - 2016-02-08T18:51:19.770Z] Session [f0f3a850-ce94-11e5-b628-f751287207de] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.0.0 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-08T18:51:19.770Z] Session [f0f3a850-ce94-11e5-b628-f751287207de] - page.customHeaders:  - {}
+[INFO  - 2016-02-08T18:51:19.770Z] Session [f0f3a850-ce94-11e5-b628-f751287207de] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.0.0","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.9 (Mavericks)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-08T18:51:19.770Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f0f3a850-ce94-11e5-b628-f751287207de
+[ERROR - 2016-02-08T18:51:21.727Z] Session [f0f3a850-ce94-11e5-b628-f751287207de] - page.onError - msg: Invalid id.
+[ERROR - 2016-02-08T18:51:21.727Z] Session [f0f3a850-ce94-11e5-b628-f751287207de] - page.onError - stack:
+  c (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:22)
+  (anonymous function) (https://rc.live.test.cheggnet.com/_r-default/a42c8a9cbce35ef5ca1f65de57c6571b.js:23)
+  (anonymous function) (https://rc.live.test.cheggnet.com/tutors/:1272)
+  f (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  j (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  fireWith (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:2)
+  x (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+  (anonymous function) (https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js:4)
+[INFO  - 2016-02-08T18:51:53.735Z] ShutdownReqHand - _handle - About to shutdown
