@@ -2,14 +2,15 @@ package smokes;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
+import org.junit.runners.MethodSorters;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.junit.runners.MethodSorters;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class SignUpSignInSuccess extends SetUpDriver {
@@ -48,10 +49,11 @@ public class SignUpSignInSuccess extends SetUpDriver {
 			chooseAPassword.sendKeys("Test@123");
 			signUpButton.click();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			WebElement nameOnCard = driver.findElement(By.cssSelector("input[id='eggshell-28-0']"));
-			WebElement cardNumber = driver.findElement(By.cssSelector("input[id='eggshell-28-1']"));
-			WebElement securityCode = driver.findElement(By.cssSelector("input[id='eggshell-30-0']"));
-			WebElement zip = driver.findElement(By.cssSelector("input[id='eggshell-37-1']"));
+			signUpButton.click();
+			WebElement nameOnCard = driver.findElement(By.name("cardName"));
+			WebElement cardNumber = driver.findElement(By.name("cardNumber"));
+			WebElement securityCode = driver.findElement(By.name("cardCode"));
+			WebElement zip = driver.findElement(By.name("zip"));
 			WebElement startYourFreeTrialButton = driver.findElement(By.cssSelector("div[class='paywall-submit']"));
 			// make sure all values are empty by default
 			Assert.assertTrue(nameOnCard.getText().isEmpty());
@@ -121,10 +123,11 @@ public class SignUpSignInSuccess extends SetUpDriver {
 			chooseAPassword.sendKeys("Test@123");
 			signUpButton.click();
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-			WebElement nameOnCard = driver.findElement(By.cssSelector("input[id='eggshell-28-0']"));
-			WebElement cardNumber = driver.findElement(By.cssSelector("input[id='eggshell-28-1']"));
-			WebElement securityCode = driver.findElement(By.cssSelector("input[id='eggshell-30-0']"));
-			WebElement zip = driver.findElement(By.cssSelector("input[id='eggshell-37-1']"));
+			signUpButton.click();
+			WebElement nameOnCard = driver.findElement(By.name("cardName"));
+			WebElement cardNumber = driver.findElement(By.name("cardNumber"));
+			WebElement securityCode = driver.findElement(By.name("cardCode"));
+			WebElement zip = driver.findElement(By.name("zip"));
 			WebElement startYourFreeTrialButton = driver.findElement(By.cssSelector("div[class='paywall-submit']"));
 			// make sure all values are empty by default
 			Assert.assertTrue(nameOnCard.getText().isEmpty());
@@ -206,5 +209,11 @@ public class SignUpSignInSuccess extends SetUpDriver {
 				.findElement(By.cssSelector("button[class='sign-in-submit btn btn-convert btn-fullwidth btn-xlarge']"));
 		logInButton.click();
 		wait.until(ExpectedConditions.urlContains("/tutors"));
+	}
+	
+	@After
+	public void tearDown(){
+		driver.close();
+		driver.quit();
 	}
 }

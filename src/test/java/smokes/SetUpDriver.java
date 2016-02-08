@@ -20,12 +20,12 @@ public class SetUpDriver {
 	@Before
 	public void setUp() {
 		driver = new FirefoxDriver();
+		driver.manage().window().maximize();
 		driver.navigate().to("https://rc.live.test.cheggnet.com/tutors/");
 	}
 
 	@After
 	public void tearDown() {
 		driver.close();
-		driver.quit();
 	}
 }
